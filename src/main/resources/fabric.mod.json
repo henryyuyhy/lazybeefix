@@ -3,21 +3,18 @@
 	"id": "lazybeefix",
 	"version": "${version}",
 	"name": "LazyBeeFix",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "a mod to fix issue MC-168329",
 	"authors": [
-		"Me!"
+		"yu"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/henryyuyhy/lazybeefix"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/lazybeefix/icon.png",
 	"environment": "*",
 	"entrypoints": {
-		"main": [
-			"com.yu.lazybeefix.LazyBeeFix"
-		]
+
 	},
 	"mixins": [
 		"lazybeefix.mixins.json"
